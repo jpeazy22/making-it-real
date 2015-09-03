@@ -63,7 +63,7 @@
 				<p>Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo. Aenean orci lectus, aliquet sed malesuada sit amet, euismod non elit.</p>
 				<div class="greybox">
 					<p>$('#myElement').click(function){<br>
-						console.log('Clicked!')<br>
+						  console.log('Clicked!')<br>
 						}); </p>
 				</div>
 				<p>Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo. Aenean orci lectus, aliquet sed malesuada sit amet, euismod non elit.</p>
@@ -74,37 +74,46 @@
 				<h3>Section Title</h3>
 				<hr>
 				<p>Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo. Aenean orci lectus, aliquet sed malesuada sit amet, euismod non elit.</p>
-				<img src="http://placehold.it/960x150">
+				<img src="http://placehold.it/960x150" class="single-img">
 				<ol>
-					<li>
+					<li class="ordered-list">
 						<p><strong>Create HTML:</strong>
 						Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo.</p>
 					</li>
-					<li>
+					<li class="ordered-list">
 						<p><strong>Make Pretty with CSS:</strong>
 						Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo.</p>
 					</li>
-					<li>
+					<li class="ordered-list">
 						<p><strong>Profit:</strong>
 						Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo.</p>
 					</li>
-					<p>Posted by <strong>Author </strong>under <strong>Web > Dev</strong> on <strong>January 13, 2014.</strong>
 				</ol>
+				<p class="author">Posted by <strong>Author </strong>under <strong>Web > Dev</strong> on <strong>January 13, 2014.</strong>
 			</section>
 			<section class="section comments">
 				<h2>Comments</h2>
 				<h4>user info</h4>
 				<div class="form">
 					<form>
-						Email: <input type="text" name="E-mail">
-						<br>
-						Display Name: <input type="text" name="Display Name">
-						<br>
-						Website: <input type="text" name="Website">
+						<div class="inputs">
+							<lable>Email</lable>
+							<input type="text" name="E-mail">
+						</div>
+						
+						<div class="inputs">
+							<lable>Display Name</lable>
+							<input type="text" name="Display Name">
+						</div>
+
+						<div class="inputs">
+							<label>Website</label>
+							<input type="text" name="Website">
+						</div>
 					</form>
 					<h4>Comment</h4>
 					<form class="commentbox">
-						<input type="text" name="Comment">
+						<textarea> </textarea>
 						<input type="submit" value="Submit">
 					</form>
 				</div>

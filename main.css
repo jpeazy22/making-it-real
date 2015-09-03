@@ -82,7 +82,11 @@ nav ul li a {
 	margin-left: 30px;
 }
 
-img {
+span {
+	color: red;
+}
+
+.single-img {
 	width: 100%;
 }
 
@@ -130,13 +134,67 @@ table {
 .greybox p {
 	font-family: serif;
 	padding: 20px 0;
-
 }
 
+.ordered-list p {
+	padding-left: 0px;
+	margin-left: 0px;
+}
 
+.author {
+	font-size: 14px;
+	color: slategrey;
+}
 
+.inputs {
+	display: block;
+	width: 100%;
+	text-align: right;
+	padding: 5px 0;
+}
 
+.inputs label {
+	width:10%;
+}
 
+.inputs input {
+	width: 80%;
+}
+
+h4 {
+	text-transform: uppercase;
+	color: darkgrey;
+	font-size: 13px;
+	padding-left: 30px; 
+    position: relative;  
+    z-index: 1;
+}
+
+h4:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 87%;
+    height: 1px;
+    content: '\a0';
+    background-color: grey;
+    margin-left: 5px;
+}
+h4:before {
+    margin-left: -5%;
+    text-align: right;
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 4%;
+    height: 1px;
+    content: '\a0';
+    background-color: grey;
+}
+}
+.color {
+    background-color: #ccc;
+}
 
 
 
