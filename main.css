@@ -1,0 +1,145 @@
+@media screen and (min-width: 960px) {
+	.content-wrapper {
+	max-width: 960px;
+	background-color: #fff;
+	margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.content-wrapper {
+		background-color: #fff;
+	}
+}
+
+body {
+	width: 100%;
+	background-color: #7f8c8d;
+}
+
+header {
+	width: 100%;
+}
+
+.content-wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background-color: ##fff;
+}
+
+.title-area {
+	position: relative;
+	width: 100%; 
+	height: 300px;
+	background-color: #2ecc71;
+	color: #fff;
+	border-bottom: 4px solid #27ae60;
+}
+
+.website-title {
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	padding: 5px;
+}
+
+
+nav {
+	list-style-type: none;
+	width: 100%;
+	background-color: #34495e;
+	height: 50px;
+	text-align: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	text-decoration: none;
+	display: inline-block;
+/*	float: right;*/
+	padding: 14px 20px 0 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+.section {
+	background-color: #fff;
+	padding: 0 20px;
+	margin-bottom: 50px;
+
+}
+
+.section p {
+	margin-left: 30px;
+}
+
+img {
+	width: 100%;
+}
+
+table {
+	border: 1px solid slategrey;
+}
+
+.header-row {
+	background-color: lightgrey;
+}
+
+.header-row th {
+	border: 1px solid slategrey;
+	padding: 5px;
+	text-align: left;
+}
+
+.column {
+	border: 1px solid slategrey;
+	padding: 10px;
+}
+
+.first-col {
+	width: 10%;
+}
+
+.second-col {
+	width: 80%;
+}
+
+.third-col button {
+	border: none;
+	color: #fff;
+	background-color: #3498db;
+	font-size: 12px;
+	padding: 5px 20px;
+}
+
+.greybox {
+	width: 100%;
+	background-color: lightgrey;
+	height: 100px;
+}
+
+.greybox p {
+	font-family: serif;
+	padding: 20px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
