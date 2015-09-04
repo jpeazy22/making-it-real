@@ -21,18 +21,36 @@
 					</ul>
 				</nav>
 			</header>
-			<section class="section">
+			<div class="wrapper2">
+			<aside>
+				<div class="ugly-side-box">
+					<ul>
+						<li class="topic">Recent Posts</li>
+						<li class="items">Another Post</li>
+						<li class="items">A Cool Story</li>
+						<li class="items">Useful Tips and Tricks</li>
+					</ul>
+					<ul>
+						<li class="topic">Categories</li>
+						<li class="items">Web</li>
+						<li class="items">Dev</li>
+						<li class="items">CSS</li>
+					</ul>
+				</div>
+			</aside>
+			<section class="first-section">
 				<h2>Article Title</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat augue augue, ut maximus erat viverra non. Integer viverra gravida nisl in mollis. Donec mattis augue non fringilla varius. Vivamus vel viverra turpis. Sed ut sapien mauris. Nullam venenatis felis a mi sodales, sit amet scelerisque arcu gravida.</p>
 
 				<p>Nam vel fermentum diam. Nullam at <strong>purus quis </strong>ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo. <span>Aenean orci lectus,</span> aliquet sed malesuada sit amet, euismod non elit.</p>
 			</section>
+			</div>
 			<section class="section">
 				<h3>Section Title</h3>
 				<hr>
 				<p>Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo. Aenean orci lectus, aliquet sed malesuada sit amet, euismod non elit.</p>
 				<div class="table">
-					<table width="100%">
+					<table>
 						<tr class="header-row">
 							<th>What</th>
 							<th>Where</th>
@@ -62,9 +80,11 @@
 				<hr>
 				<p>Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo. Aenean orci lectus, aliquet sed malesuada sit amet, euismod non elit.</p>
 				<div class="greybox">
-					<p>$('#myElement').click(function){<br>
-						  console.log('Clicked!')<br>
-						}); </p>
+					<pre>
+$('#myElement').click(function){
+  console.log('Clicked!')
+});
+						</pre>
 				</div>
 				<p>Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo. Aenean orci lectus, aliquet sed malesuada sit amet, euismod non elit.</p>
 
@@ -93,51 +113,63 @@
 			</section>
 			<section class="section comments">
 				<h2>Comments</h2>
+				
+				<div class="user-form">
 				<h4>user info</h4>
-				<div class="form">
-					<form>
-						<div class="inputs">
-							<lable>Email</lable>
+					<form class="email">
+						<div class="form-inputs">
+							<label>Email</label>
 							<input type="text" name="E-mail">
 						</div>
 						
-						<div class="inputs">
-							<lable>Display Name</lable>
+						<div class="form-inputs">
+							<label>Display Name</label>
 							<input type="text" name="Display Name">
 						</div>
 
-						<div class="inputs">
+						<div class="form-inputs">
 							<label>Website</label>
 							<input type="text" name="Website">
 						</div>
 					</form>
-					<h4>Comment</h4>
+				<h4>Comment</h4>
 					<form class="commentbox">
-						<textarea> </textarea>
+						<textarea></textarea>
 						<input type="submit" value="Submit">
 					</form>
 				</div>
 			</section>
-			<section class="section user-comments">
-				<img src="http://placehold.it/50x50">
-				<h4>User 1</h4>
-				<p> January 13, 2014</p>
-				<p>Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo.</p>
 
-					<img src="http://placehold.it/50x50">
-					<h4>User 1</h4>
+			<section class="user-comments">
+				<img src="http://placehold.it/50x50" class="avatar">
+				<div class="user-info">
+					<h5>User 1</h5>
 					<p> January 13, 2014</p>
+				</div>
 					<p>Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo.</p>
+				
+				<div class="sub-comments">
+					<img src="http://placehold.it/50x50" class="avatar">
+					<div class="user-info">
+						<h5>User 1</h5>
+						<p> January 13, 2014</p>
+					</div>
+						<p>Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo.</p>
 
-					<img src="http://placehold.it/50x50">
-					<h4>User 3</h4>
-					<p> January 13, 2014</p>
-					<p>Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo.</p>
-
-				<img src="http://placehold.it/50x50">
-				<h4>User 2</h4>
-				<p> January 13, 2014</p>	
-				<p>Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo.</p>	
+					<img src="http://placehold.it/50x50" class="avatar">
+					<div class="user-info">
+						<h5>User 3</h5>
+						<p> January 13, 2014</p>
+					</div>
+						<p>Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo.</p>
+					</div>
+					<img src="http://placehold.it/50x50" class="avatar">
+					<div class="user-info">
+						<h5>User 2</h5>
+						<p> January 13, 2014</p>
+				</div>	
+					<p>Nam vel fermentum diam. Nullam at purus quis ligula tempor ullamcorper. Vivamus tincidunt volutpat imperdiet. Proin eu metus finibus, efficitur urna sed, facilisis leo.</p>	
+			
 			</section>
 		</div>
 	</body>
